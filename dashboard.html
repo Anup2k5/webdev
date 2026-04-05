@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CRM Dashboard</title>
+<style>
+body {
+  margin: 0;
+  font-family: Arial;
+  display: flex;
+}
+.sidebar {
+  width: 200px;
+  background: #1976D2;
+  color: white;
+  height: 100vh;
+  padding: 20px;
+}
+.sidebar a {
+  display: block;
+  color: white;
+  margin: 10px 0;
+  text-decoration: none;
+}
+.main {
+  flex: 1;
+  padding: 20px;
+}
+.card {
+  display: inline-block;
+  width: 150px;
+  margin: 10px;
+  padding: 20px;
+  background: #f4f6f9;
+  border-radius: 10px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="sidebar">
+  <h3>CRM</h3>
+  <a href="#">Dashboard</a>
+  <a href="#">Customers</a>
+  <a href="#">Leads</a>
+  <a href="#">Sales</a>
+</div>
+
+<div class="main">
+  <h2>Dashboard</h2>
+  <div class="card">Customers<br>120</div>
+  <div class="card">Leads<br>45</div>
+  <div class="card">Sales<br>30</div>
+</div>
+
+</body>
+</html>
